@@ -1,0 +1,2 @@
+Test merge with conflict
+Test merge with conflict and edit in another branch

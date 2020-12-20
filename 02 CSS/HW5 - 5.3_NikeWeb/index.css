@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.navbar__1{
+background-color: rgb(218, 218, 218);
+height : 30px;
+}
+.navbar__2{
+background-color:white;
+height: 50px;
+padding-top : 0.5em;
+}
+
+.navbar__3{
+    background-color: rgb(218, 218, 218);
+    height : 50px;
+    padding-top : 0.5em;
+}
+
+.boyShoes__container{
+    height: 750px;
+    background-color: red;
+    padding-top: 75px;
+
+}
+
+.boyShoes__item {
+    width : 85vw;
+    height: 600px;
+    background-color: green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.hotShoe{
+    margin-bottom: 30px;
+}
+.hotShoe__container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.hotShoe__item{
+    width: 401px;
+    height: 401px;
+    background-color: yellow;
+    margin-bottom: 40px;
+}
+
+.hotItem__container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.hotItem__item{
+    width: 610px;
+    height: 700px;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+
+.popular__container{
+    height: 850px;
+    background-color: red;
+    padding-top: 30px;
+
+}
+
+.popular__item {
+    width : 1237px;
+    height: 700px;
+    background-color: green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+.indeed{
+    margin-bottom: 30px;
+}
+.indeed__container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.indeed__item{
+    width: 401px;
+    height: 540px;
+    background-color: yellow;
+    margin-bottom: 40px;
+}
+
+.beforeFooter{
+    height: 200px;
+    background-color: rgb(179, 224, 245);
+}
+
+.footer{
+    height: 300px;
+    background-color: black;
