@@ -1,0 +1,49 @@
+@media all and (min-width: 769px) {
+    #container {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    #container {
+        display: grid;
+        gap: 0.75em;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media all and (max-width: 480px) {
+    #container {
+        display: grid;
+        gap: 0.5em;
+        grid-template-columns: auto;
+    }
+}
+
+#image-container {
+    margin: 1em 0;
+}
+
+#image {
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+#card {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#card-head {
+    text-align: left;
+    padding: 5px 5px;
+    background-color: #10ede2;
+}
+
+#card-content {
+    text-align: justify;
+    padding: 5px 5px;
+}
